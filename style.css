@@ -17,7 +17,7 @@ body {
 }
 
 main {
-  padding: 2rem; 
+  padding: 1.5rem; 
 }
 
 nav {
@@ -42,7 +42,11 @@ img {
 }
 
 p {
-  padding: .5rem; 
+  padding: 1rem; 
+}
+
+ul {
+  padding-left: 1rem; 
 }
 
 footer {
@@ -51,7 +55,7 @@ footer {
   flex-direction: column; 
   justify-content: center;
   align-items: center; 
-  font-size: 25px;
+  font-size: 16px;
 }
 
 a {
@@ -75,5 +79,13 @@ h2 {
   align-items: center; 
   font-family: serif; 
   padding: 1rem; 
+
+}
+
+h3 {
+  font-size: 30px;
+  display: flex;
+  align-items: start; 
+  font-family: serif; 
 
 }
