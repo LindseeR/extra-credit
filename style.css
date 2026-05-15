@@ -3,6 +3,25 @@
   padding: 0;
 }
 
+// <weight>: Use a value from 200 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+.inconsolata-<uniquifier> {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.supermercado-one-regular {
+  font-family: "Supermercado One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 html {
   background-color: #fff7ec;
   color: #28544b; 
@@ -13,7 +32,7 @@ html {
 body {
   display: flex; 
   flex-direction: column; 
-  font-family: sans-serif; 
+  font-family: "Inconsolata", monospace; 
 }
 
 main {
@@ -63,6 +82,7 @@ a {
 }
 
 h1 {
+  font-family: "Supermercado One", sans-serif; 
   font-size: 45px;
   display: flex;
   flex-direction: column; 
@@ -72,6 +92,7 @@ h1 {
 }
 
 h2 {
+  font-family: "Supermercado One", sans-serif; 
   font-size: 35px;
   display: flex;
   flex-direction: column; 
@@ -87,5 +108,12 @@ h3 {
   display: flex;
   align-items: start; 
   font-family: serif; 
+}
 
+.koa-gallery {
+  display: flex;
+  justify-content: center;  
+  height: auto; 
+  width: auto; 
+  gap: 1rem; 
 }
